@@ -1,0 +1,46 @@
+baseurl = "https://tixify.eu"
+title = "Tixify.eu"
+
+theme = "coder"
+
+languagecode = "en"
+
+paginate = 20
+canonifyurls = true
+
+pygmentsstyle = "b2"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+disqusShortname = "Tixifyeu"
+
+[params]
+    author = "Tixify Limited"
+    description = "Tixify.eu 100% API Based Ticketing Platform"
+    keywords = "ticketing, platform, tickets, whitelabel"
+    info = "Whitelabel Ticketing Platform"
+
+    hideCredits = true
+    hideCopyright = false
+
+    # Custom CSS
+	custom_css = []
+
+[[params.social]]
+    name = "Features"
+    weight = 1
+    url = "/#"
+[[params.social]]
+    name = "Pricing"
+    weight = 2
+    url = "/#"
+[[params.social]]
+    name = "Documentation"
+    weight = 3
+    url = "/#"
+
+[[menu.main]]
+    name = "Home"
+    weight = 1
+    url  = "/#"
+
